@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  z-index: 9999;
+}
+// ========RESPONSIVE==========
+@media #{$media-tablet-md} {
+  .header {
+    width: 100%;
+  }
+}
+
+@media #{$media-mobile-xs} {
+  .header {
+    width: 100%;
+  }
+}

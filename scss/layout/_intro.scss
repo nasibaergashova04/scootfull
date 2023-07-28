@@ -1,0 +1,235 @@
+.intro {
+  background-image: url("../../images/batmap.png");
+  height: 650px;
+  background-size: cover;
+  //   padding-bottom: 153px;
+  overflow-x: hidden;
+&__hr{
+  position: absolute;
+  width:250px;
+  height:14px;
+  background-color:#FCB72B;
+  top:470px;
+  left: 0px;
+}
+  &__h1 {
+    color: #fff;
+    font-size: 56px;
+    padding-top: 140px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: -2.5px;
+    margin-top: -10px;
+  }
+  &__img{
+    width: 447px;
+    height: 138px;
+    position: absolute;
+    top:170px;
+    left:760px;
+  }
+  &__p {
+    width: 405px;
+    height: 100px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 95px;
+    margin-top:-20px;
+    
+  }
+  &__btn {
+    width: 180px;
+    height: 53px;
+    background-color: #fcb72b;
+border: #fcb72b;
+    font-family: "Space Mono";
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 95px;
+  }
+}
+// ==========RESPONSIVE=============
+@media #{$media-tablet-md} {
+  .intro {
+    background-image: url("../../images/batmap.png");
+    height: 650px;
+    background-size: cover;
+    //   padding-bottom: 153px;
+    overflow-x: hidden;
+  &__hr{
+    display: none;
+
+  }
+    &__h1 {
+      position: absolute;
+      width: 573px;
+      height: 112px;
+      left: 97px;
+      top: 100px;
+      
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 56px;
+      /* or 100% */
+      
+      text-align: center;
+      letter-spacing: -2.5px;
+      
+      color: #FFFFFF;
+      
+    }
+    &__img{
+      width: 447px;
+      height: 138px;
+      position: absolute;
+      top:170px;
+      left:760px;
+      display: none;
+    }
+    &__p {
+      position: absolute;
+      width: 500px;
+      height: 75px;
+      left: 40px;
+      top: 400px;
+      
+      font-family: 'Lexend Deca';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+      
+      text-align: center;
+      
+      color: #FFFFFF;
+      
+      
+
+  
+      
+    }
+    &__btn {
+      position: absolute;
+      width: 180px;
+      height: 53px;
+      background-color: #fcb72b;
+      border: #fcb72b;
+      font-family: "Space Mono";
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      align-items: center;
+      color: #ffffff;
+      margin: 30px auto;
+      top: 470px;
+      left: 300px;
+
+    }
+  }
+
+}
+// =========== MOBILE RESPONSIVE=======
+@media #{$media-mobile-xs} {
+  .intro {
+    background-image: url("../../images/batmap.png");
+    height: 650px;
+    background-size: cover;
+    //   padding-bottom: 153px;
+    overflow-x: hidden;
+  &__hr{
+    display: none;
+  }
+    &__h1 {
+      // position: absolute;
+      width: 311px;
+      height: 120px;
+      left: 32px;
+      top: 179px;
+      
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      /* or 100% */
+      
+      text-align: center;
+      letter-spacing: -1.78571px;
+      
+      color: #FFFFFF;
+
+
+      
+      
+    }
+    &__img{
+      display: none;
+    }
+    &__p {
+      width: 311px;
+      height: 125px;
+      position: absolute;
+width: 311px;
+height: 125px;
+left: 32px;
+top: 343px;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+      
+    }
+    &__btn {
+      width: 180px;
+      height: 53px;
+      background-color: #fcb72b;
+      border: #fcb72b;
+      font-family: "Space Mono";
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      align-items: center;
+      color: #ffffff;
+    margin-top: 170px ;
+    margin-left: 86px;
+  
+    }
+  }
+
+
+
+
+}
+
+
+
+
+// BTN=======
+.intro__btn:active{
+  background-color: #fff;
+  color:#FCB72B ;
+  border: 3px solid #FCB72B;
+}
+.intro__btn:hover{
+  background-color: #fff;
+  color:#FCB72B ;
+  border: 3px solid #FCB72B;
+  
+}
+
+
+

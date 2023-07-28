@@ -1,0 +1,128 @@
+.nav {
+  display: flex;
+  margin-bottom: 30px;
+  // position: fixed;
+  // top: 0px;
+  // bottom:100px;
+  // z-index: 20;
+  &__logo {
+    margin: 34px 58px 0px 0px;
+    width: 107px;
+    height: 28px;
+  }
+  &__menu {
+    display: none;
+    width: 19px;
+    height: 16px;
+  }
+  &__ul {
+    display: flex;
+    gap: 32px;
+    margin: 36px 511px 0px 0px;
+
+    &_li {
+      list-style-type: none;
+      font-size: 15px;
+      &-link {
+        text-decoration: none;
+        color: #939caa;
+        font-family: "Space Mono", monospace;
+      }
+    }
+  }
+  &__btn {
+    width: 180px;
+    height: 53px;
+    background-color: #fcb72b;
+    color: #fff;
+    font-size: 15px;
+    border: #fcb72b;
+    margin: 22px 0px 0px 0px;
+  }
+}
+// =======HOVER ACTIVE========
+.nav__ul_li-link:hover {
+  color: #fcb72b;
+}
+.nav__ul_li-link:active {
+  color: #fcb72b;
+}
+
+// BTN
+.nav__btn:active {
+  background-color: #fff;
+  color: #fcb72b;
+  border: 2px solid #fcb72b;
+}
+.nav__btn:hover {
+  background-color: #fff;
+  color: #fcb72b;
+  border: 2px solid #fcb72b;
+}
+
+// ===============RESPONSIVE==================
+@media #{$media-tablet-md} {
+  .nav {
+    display: flex;
+    margin-bottom: 30px;
+    width: 668px;
+    margin: 10px auto;
+    // background-color: rgb(157, 12, 12);
+    // position: fixed;
+    // top: 0px;
+    &__logo {
+      // margin: 34px 58px 0px 0px;
+      width: 107px;
+      height: 28px;
+      // margin-left: 50px;
+      margin-top: 25px;
+    }
+    &__ul {
+      display: flex;
+      gap: 32px;
+      margin-top: 30px;
+margin-left: -60px;
+      &_li {
+        list-style-type: none;
+        font-size: 15px;
+        &-link {
+          text-decoration: none;
+          color: #939caa;
+          font-family: "Space Mono", monospace;
+        }
+      }
+    }
+    &__btn {
+      width: 180px;
+      height: 53px;
+      background-color: #fcb72b;
+      color: #fff;
+      font-size: 15px;
+      border: #fcb72b;
+      margin-left: -420px;
+      
+    }
+  }
+}
+
+@media #{$media-mobile-xs} {
+  .nav {
+    display: flex;
+    margin-bottom: 30px;
+    margin: 20px auto;
+    // position: fixed;
+    // top: 0px;
+    &__logo {
+      // margin: 22px auto;
+      width: 107px;
+      height: 28px;
+     margin-left:120px;
+    }
+    &__ul {
+      display: none;
+    }
+    &__btn {
+      display: none;
+    }
+  }
+}

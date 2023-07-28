@@ -1,0 +1,35 @@
+.intro{
+    width: 100%;
+    margin-top: 120px;
+
+    &__wrapper{
+      display: flex; 
+      &_h2{
+        color: #495567;
+        font-size:50px;
+        width: 356px;
+        height: 96px;
+        margin: 122px 30px 0px 0px;  
+        } 
+        &_p{
+font-size: 15px;
+color:#939CAA;
+width: 445px;
+height: 100px;
+line-height: 25px;
+margin:135px 105px 120px 0px;
+
+
+        }
+        &_btn{
+            width: 180px;
+            height: 53px;
+            background-color:#FCB72B;
+            color:#fff;
+            font-size: 15px;
+            border: #FCB72B;
+            margin-top: 122px;
+            
+        }
+    }
+}

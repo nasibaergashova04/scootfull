@@ -1,0 +1,436 @@
+.hero {
+  width: 100%;
+  &__title {
+    color: #495567;
+    font-family: "Space Mono";
+    font-size: 48px;
+    text-align: center;
+  }
+
+  &__wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    &_h2 {
+      width: 350px;
+      letter-spacing: -1.78571px;
+      font-size: 40px;
+      color: #495567;
+    }
+    &_card {
+      &-card1 {
+        width: 730px;
+        height: 191px;
+        background: #f2f5f9;
+        margin-bottom: 16px;
+        // position: absolute;
+      }
+
+      &-card2 {
+        width: 730px;
+        height: 92px;
+        background: #f2f5f9;
+        margin-bottom: 16px;
+      }
+      &-h2 {
+        position: absolute;
+        font-family: "Space Mono";
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+        margin: 32px 278px 24px 40px;
+      }
+
+      &-p {
+        font-family: "Lexend Deca";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #495567;
+        margin-top: -70px;
+        text-align: start;
+        width: 650px;
+        margin-left: 40px;
+      }
+
+      &-img {
+        width: 16px;
+        height: 8px;
+        margin-left: 670px;
+        margin-top: -54px;
+      }
+      &-img2 {
+        width: 16px;
+        height: 8px;
+        margin-left: 670px;
+      }
+    }
+  }
+  // wrapper 2
+  &__wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    &_h2 {
+      width: 350px;
+      letter-spacing: -1.78571px;
+      font-size: 40px;
+      color: #495567;
+    }
+    &_card {
+      &-card1 {
+        width: 730px;
+        height: 191px;
+        background: #f2f5f9;
+        margin-bottom: 16px;
+        // position: absolute;
+      }
+
+      &-card2 {
+        width: 730px;
+        height: 92px;
+        background: #f2f5f9;
+        margin-bottom: 16px;
+      }
+      &-h2 {
+        position: absolute;
+        font-family: "Space Mono";
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+        margin: 32px 278px 24px 40px;
+      }
+
+      &-p {
+        font-family: "Lexend Deca";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #495567;
+        margin-top: -70px;
+        text-align: start;
+        width: 650px;
+        margin-left: 40px;
+      }
+
+      &-img {
+        width: 16px;
+        height: 8px;
+        margin-left: 670px;
+        margin-top: -54px;
+      }
+      &-img2 {
+        width: 16px;
+        height: 8px;
+        margin-left: 670px;
+      }
+    }
+
+
+    
+  }
+}
+// // NAVBAR=========
+// .nav__ul_li-link:hover{
+//   color: #FCB72B;
+// }
+// .nav__ul_li-link:active{
+//   color: #FCB72B;
+// }
+// // =======CARD ACTIVE
+
+// .nav__ul_li-link:hover{
+//   color: #FCB72B;
+// }
+
+// .nav__ul_li-link:active{
+//   color: #FCB72B;
+// }
+
+
+.hero__wrapper1_card-card1:active {
+  background-color: #fff4df;
+}
+.hero__wrapper1_card-card1:hover {
+  background-color: #fff4df;
+}
+.hero__wrapper1_card-card2:hover{
+  background-color: #fff4df;
+}
+// ===========RESPONSIVE TABLET=========
+@media #{$media-tablet-md} {
+  .hero {
+    width: 100%;
+    &__title {
+      color: #495567;
+      font-family: "Space Mono";
+      font-size: 48px;
+      text-align: center;
+    }
+  
+    &__wrapper1 {
+      display: block;
+      // justify-content: space-between;
+      &_h2 {
+        width: 350px;
+        letter-spacing: -1.78571px;
+        font-size: 40px;
+        color: #495567;
+      }
+      &_card {
+        &-card1 {
+          width: 730px;
+          height: 191px;
+          background: #f2f5f9;
+          margin-bottom: 16px;
+          // position: absolute;
+        }
+  
+        &-card2 {
+          width: 730px;
+          height: 92px;
+          background: #f2f5f9;
+          margin-bottom: 16px;
+        }
+        &-h2 {
+          position: absolute;
+          font-family: "Space Mono";
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+          margin: 32px 278px 24px 40px;
+        }
+  
+        &-p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #495567;
+          margin-top: -70px;
+          text-align: start;
+          width: 650px;
+          margin-left: 40px;
+        }
+  
+        &-img {
+          width: 16px;
+          height: 8px;
+          margin-left: 670px;
+          margin-top: -54px;
+        }
+        &-img2 {
+          width: 16px;
+          height: 8px;
+          margin-left: 670px;
+        }
+      }
+    }
+    // wrapper 2
+    &__wrapper1 {
+      display: block;
+      
+      &_h2 {
+        width: 350px;
+        letter-spacing: -1.78571px;
+        font-size: 40px;
+        color: #495567;
+      }
+      &_card {
+        &-card1 {
+          width: 730px;
+          height: 191px;
+          background: #f2f5f9;
+          margin-bottom: 16px;
+          // position: absolute;
+        }
+  
+        &-card2 {
+          width: 730px;
+          height: 92px;
+          background: #f2f5f9;
+          margin-bottom: 16px;
+        }
+        &-h2 {
+          position: absolute;
+          font-family: "Space Mono";
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+          margin: 32px 278px 24px 40px;
+        }
+  
+        &-p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #495567;
+          margin-top: -70px;
+          text-align: start;
+          width: 650px;
+          margin-left: 40px;
+        }
+  
+        &-img {
+          width: 16px;
+          height: 8px;
+          margin-left: 670px;
+          margin-top: -54px;
+        }
+        &-img2 {
+          width: 16px;
+          height: 8px;
+          margin-left: 670px;
+        }
+      }
+  
+  
+      
+    }
+  }
+}
+// ==========RESPONSIVER MOBILE============
+@media #{$media-mobile-xs} {
+  .hero {
+    width: 100%;
+    &__title {
+      color: #495567;
+      font-family: "Space Mono";
+      font-size: 48px;
+      text-align: center;
+    }
+  
+    &__wrapper1 {
+      display: block;
+      justify-content: space-between;
+      &_h2 {
+        width: 350px;
+        letter-spacing: -1.78571px;
+        font-size: 40px;
+        color: #495567;
+      }
+      &_card {
+        &-card1 {
+          width: 730px;
+          height: 191px;
+          background: #f2f5f9;
+          margin-bottom: 16px;
+          // position: absolute;
+        }
+  
+        &-card2 {
+          width: 730px;
+          height: 92px;
+          background: #f2f5f9;
+          margin-bottom: 16px;
+        }
+        &-h2 {
+          position: absolute;
+          font-family: "Space Mono";
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+          margin: 32px 278px 24px 40px;
+        }
+  
+        &-p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #495567;
+          margin-top: -70px;
+          text-align: start;
+          width: 650px;
+          margin-left: 40px;
+        }
+  
+        &-img {
+          width: 16px;
+          height: 8px;
+          margin-left: 670px;
+          margin-top: -54px;
+        }
+        &-img2 {
+          width: 16px;
+          height: 8px;
+          margin-left: 670px;
+        }
+      }
+    }
+    // wrapper 2
+    &__wrapper1 {
+      display: block
+      // justify-content:space-between;
+      &_h2 {
+        width: 350px;
+        letter-spacing: -1.78571px;
+        font-size: 40px;
+        color: #495567;
+      }
+      &_card {
+        &-card1 {
+          width: 730px;
+          height: 191px;
+          background: #f2f5f9;
+          margin-bottom: 16px;
+          // position: absolute;
+        }
+  
+        &-card2 {
+          width: 730px;
+          height: 92px;
+          background: #f2f5f9;
+          margin-bottom: 16px;
+        }
+        &-h2 {
+          position: absolute;
+          font-family: "Space Mono";
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+          margin: 32px 278px 24px 40px;
+        }
+  
+        &-p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #495567;
+          margin-top: -70px;
+          text-align: start;
+          width: 650px;
+          margin-left: 40px;
+        }
+  
+        &-img {
+          width: 16px;
+          height: 8px;
+          margin-left: 670px;
+          margin-top: -54px;
+        }
+        &-img2 {
+          width: 16px;
+          height: 8px;
+          margin-left: 670px;
+        }
+      }
+  
+  
+      
+    }
+  }
+}
+

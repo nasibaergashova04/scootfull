@@ -1,0 +1,225 @@
+.main {
+  &__block {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    align-items: center;
+    justify-content: space-between;
+
+    &--grid h3 {
+      color: #495567;
+      font-size: 40px;
+      font-family: 'Space Mono', monospace;
+height: 96px;
+width: 400px;
+    }
+  
+    &--grid p{
+        color: #939CAA;
+        font-size: 15px;
+        width: 445px;
+        height: 75px;
+    }
+    &--grid button{
+      width: 180px;
+      height: 53px;
+      background-color:#FCB72B; 
+      border: #FCB72B;
+      color: #fff;
+    }
+    &--grid img{
+        width: 445px;
+        height: 445px;
+        border-radius: 50%;
+        margin-top: 120px;
+    }
+  
+
+    &--grid{
+ &-img1{
+  display: none;
+ }
+ &-img2{
+  display: none;
+ }
+    }
+  }
+}
+
+// =====BTN ACTIVE
+button:active{
+  background-color: #fff;
+  color:#FCB72B ;
+  border: 2px solid #FCB72B;
+  
+}
+button:hover{
+  background-color: #fff;
+  color:#FCB72B;
+  border: 2px solid #FCB72B;
+
+}
+// ============RESPONSIVE TABLET===============
+
+@media #{$media-tablet-md} {
+  .main {
+    &__block {
+      display: grid;
+      grid-template-columns: 80% ;
+      align-items: center;
+      justify-content: center;
+  
+      &--grid h3 {
+        // position: absolute;
+        width: 457px;
+        height: 96px;
+        margin-left: 100px;
+        top: 1984px;
+        
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        /* or 100% */
+        
+        text-align: center;
+        letter-spacing: -2.14286px;
+        
+        color: #495567;
+        
+        
+      }
+    
+      &--grid p{
+      
+        width: 573px;
+height: 75px;
+left: 97px;
+top: 2120px;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #939CAA;
+
+
+        
+      }
+      &--grid button{
+        width: 180px;
+        height: 53px;
+        background-color:#FCB72B; 
+        border: #FCB72B;
+        color: #fff;
+        // position: relative;
+        margin-left:250px;
+        // top: 1000px;
+        // margin-top: 500px;
+      }
+      &--grid img{
+          width:445px;
+          height:445px;
+          border-radius: 50%;
+          margin-top: 120px;
+          margin-left: 75px;
+display:block;
+      }
+    
+  
+      &--grid{
+
+
+        &-img2{
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// ============RESPONSIVE MOBILE===============
+
+@media #{$media-mobile-xs} {
+  .main {
+    &__block {
+      display: grid;
+      grid-template-columns: 80% ;
+      align-items: center;
+      justify-content: center;
+  
+      &--grid h3 {
+width: 311px;
+height: 64px;
+left: 32px;
+top: 2931px;
+display: block;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* or 100% */
+
+text-align: center;
+letter-spacing: -1.42857px;
+
+color: #495567;
+      }
+    
+      &--grid p{
+      
+        width: 311px;
+        height: 150px;
+        left: 32px;
+        top: 3027px;
+        display: block;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        
+        text-align: center;
+        
+        color: #939CAA;
+        
+      }
+      &--grid button{
+        width: 180px;
+        height: 53px;
+        background-color:#FCB72B; 
+        border: #FCB72B;
+        color: #fff;
+        position: relative;
+        margin-left:50px;
+        // top: 1000px;
+        // margin-top: 500px;
+      }
+      &--grid img{
+          width:300px;
+          height:300px;
+          border-radius: 50%;
+          margin-top: 120px;
+display:block;
+      }
+    
+  
+      &--grid{
+
+
+        &-img2{
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+

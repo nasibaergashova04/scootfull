@@ -1,0 +1,106 @@
+.intro{
+    width: 100%;
+    .wrapper1 {
+        display: flex;
+        &__title {
+          width: 445px;
+          margin-top: 245px;
+          &_h2 {
+            font-size: 45px;
+            color: #495567;
+            font-family: "Space Mono";
+          }
+    
+          &_p {
+            font-size: 15px;
+            color: #939caa;
+            font-family: "Lexend Deca";
+          }
+
+          &_btn{
+            width: 180px;
+            height:53px;
+            background-color:#FCB72B;
+            color:#fff;
+            font-size: 15px;
+            border: #FCB72B;
+        }
+        }
+
+    }
+
+
+
+
+        .wrapper3 {
+            &__h1 {
+              color: #495567;
+              font-size: 48px;
+              font-family: "Space Mono";
+              text-align: center;
+              margin-top: 245px;
+            }
+            &__img {
+              margin-top: 48px;
+              display: flex;
+              justify-content: space-around;
+            }
+        
+            &__text {
+              width: 350px;
+              margin-top: 32px;
+              &_h3 {
+                text-align: center;
+                letter-spacing: -1.07143px;
+                font-family: 'Lexend Deca';
+                font-size:24px;
+                color: #495567;
+              }
+              &_p{
+                text-align: center;
+                font-family: 'Lexend Deca';
+                font-size:15px;
+                color:  #939CAA;
+                line-height: 25px;
+              }
+            }
+        
+            &__card{
+                margin-bottom: 120px;
+                display: flex;
+                justify-content: space-between;
+              }
+          }
+
+
+
+   
+}
+// ======BTN ACTIVE
+.wrapper1__title_btn:active{
+  background-color: #fff;
+  color:#FCB72B ;
+  border: 2px solid #FCB72B;
+  
+}
+.wrapper1__title_btn:hover{
+  background-color: #fff;
+  color:#FCB72B ;
+  border: 2px solid #FCB72B;
+  
+}
+// apply btn active=====
+.hero__card_btn:active{
+  background-color: #fff;
+  color:#FCB72B ;
+  border: 2px solid #FCB72B;
+}
+
+.hero__card_btn:hover{
+  background-color: #fff;
+  color:#FCB72B ;
+  border: 2px solid #FCB72B;
+}
+// footer active======
+
+

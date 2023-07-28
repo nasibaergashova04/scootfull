@@ -1,0 +1,43 @@
+.hero {
+  width: 100%;
+  margin-bottom: 160px;
+  &__card {
+    width: 1110px;
+    height: 128px;
+    background-color: #f2f5f9;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    &_title {
+      &-h3 {
+        font-family: "Space Mono";
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+        margin-left: 40px;
+        margin-top: 40px;
+        line-height: 8px;
+      }
+      &-p{
+        font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+margin-left: 40px;
+color: #495567;
+
+      }
+    }
+    &_btn{
+      width: 180px;
+      height:53px;
+      background-color:#FCB72B;
+      color:#fff;
+      font-size: 15px;
+      border: #FCB72B;
+      margin-top: 38px;
+      margin-right: 64px;
+    }
+  }
+}

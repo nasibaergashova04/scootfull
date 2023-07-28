@@ -1,0 +1,20 @@
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+// ============RESPONSIVE TABLET================
+
+
+@media #{$media-tablet-md} {
+    .container{
+        width: 768px;
+        margin: 0 auto;
+    }
+}
+// ============RESPONSIVE MOBILE================
+@media #{$media-mobile-xs} {
+    .container{
+        width: 375px;
+        margin: 0 auto;
+    }
+}
